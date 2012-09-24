@@ -1,8 +1,8 @@
 module Store
   class Item
-    attr_accessor @name, @price, @owner, @active
+    attr_accessor :name, :price, :owner, :active
 
-    def self(name, price, owner)
+    def self.named(name, price, owner)
       item = self.new(price, owner)
       item.name = name
       item
