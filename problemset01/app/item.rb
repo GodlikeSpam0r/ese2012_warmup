@@ -1,3 +1,15 @@
 class Item
-  # To change this template use File | Settings | File Templates.
+  attr_accessor @name, @price, @owner, @active
+
+  def self(name, price, owner)
+    item = self.new(price, owner)
+    item.name = name
+    item
+  end
+
+  def initialize(price, owner)
+    self.price = price
+    self.owner = owner
+    self.active = false
+  end
 end
