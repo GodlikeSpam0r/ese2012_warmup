@@ -19,37 +19,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="problemset01.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/problemset01.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="86" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user_test.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="user_test.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/user_test.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="32" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0">
+            <state line="3" column="0" selection-start="70" selection-end="70" vertical-scroll-proportion="0.13076924">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/user.rb">
+      <file leaf-file-name="user.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/store/user.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="32" selection-start="660" selection-end="660" vertical-scroll-proportion="0.6512821">
+            <state line="0" column="7" selection-start="7" selection-end="8" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="item.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/item.rb">
+        <entry file="file://$PROJECT_DIR$/app/store/item.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="29" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0">
+            <state line="0" column="12" selection-start="12" selection-end="12" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -70,9 +61,11 @@
       <list>
         <option value="$PROJECT_DIR$/app/problem_set01.rb" />
         <option value="$PROJECT_DIR$/app/problemset01.rb" />
-        <option value="$PROJECT_DIR$/test/user_test.rb" />
         <option value="$PROJECT_DIR$/app/item.rb" />
         <option value="$PROJECT_DIR$/app/user.rb" />
+        <option value="$PROJECT_DIR$/app/Store/item.rb" />
+        <option value="$PROJECT_DIR$/app/Store/user.rb" />
+        <option value="$PROJECT_DIR$/test/user_test.rb" />
       </list>
     </option>
   </component>
@@ -144,6 +137,10 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -156,6 +153,13 @@
     <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyIdeSdkConfigurable" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\shaechler\Documents\GitHub\ese2012_warmup\problemset01\app\store" />
+      <recent name="C:\Users\shaechler\Documents\GitHub\ese2012_warmup\problemset01\app" />
+      <recent name="C:\Users\shaechler\Documents\GitHub\ese2012_warmup\problemset01\app\Store" />
+    </key>
   </component>
   <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.user_test">
     <configuration default="false" name="user_test" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
@@ -396,30 +400,23 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/problemset01.rb">
+    <entry file="file://$PROJECT_DIR$/app/store/user.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="86" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0">
+        <state line="0" column="7" selection-start="7" selection-end="8" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/store/item.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="12" selection-start="12" selection-end="12" vertical-scroll-proportion="-0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/user_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="32" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/item.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="29" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="32" selection-start="660" selection-end="660" vertical-scroll-proportion="0.6512821">
+        <state line="3" column="0" selection-start="70" selection-end="70" vertical-scroll-proportion="0.13076924">
           <folding />
         </state>
       </provider>
