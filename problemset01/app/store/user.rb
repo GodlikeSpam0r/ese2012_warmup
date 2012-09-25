@@ -2,34 +2,34 @@ module Store
   class User
     attr_accessor :name, :credits, :items
 
-    def self.named (name)
-      user = self.new
-      user.name = name
-      user
+    def self.named(name)
+     user = self.new(name)
+     user
     end
 
-    def initialize
-      @credits=100
-      @items = Array.new
+    def initialize (name)
+      self.credits=100
+      self.items = Array.new
+      self.name = name
     end
 
-    def add_item (name, price)
-      item = item(name, price, self)
-      @items.push(item)
+    def add_item (item)
+     item.owner=self
+      self.items.push(item)
     end
 
     def del_item(item)
-      if (@items.include? item)
-        @items.delete(item)
+      if (self.items.include? item)
+        self.items.delete(item)
       end
     end
 
     def buy(owner, item)
-      if owner.active_items.include? item
+      if owner.item_list.include? item
         if item.price<=self.credits
           self.credits -= item.price
           owner.credits += item.price
-          self.add_item(item, item.price)
+          self.add_item(item)
           owner.del_item(item)
         else
           puts("Not enough credits!\n")
@@ -42,12 +42,12 @@ module Store
 
     def item_list
       active_items = Array.new
-      @items.each do |item|
-        if item.active?
+      self.items.each do |item|
+        if item.active == true
           active_items.push(item)
         end
-        active_items
       end
+      active_items
     end
   end
 end
